@@ -4,12 +4,14 @@ function Def(html) {
   return (
     <html>
       <head>
-        <title>Title</title>
+        <title>REST_RANT</title>
       </head>
-      <body>{html.children}</body>
+      <body>
+      {html.children}
+      </body>
     </html>
-  );
-}
+  )
+};
 
 
 module.exports = Def;
